@@ -1,0 +1,7 @@
+.post {
+    @apply flex p-[15px] border-[2px] border-teal-500 mt-[15px] justify-between items-center;
+
+    .postButtons {
+        @apply flex;
+    }
+}

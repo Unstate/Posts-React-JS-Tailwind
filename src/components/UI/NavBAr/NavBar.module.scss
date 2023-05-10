@@ -1,0 +1,7 @@
+.navBar { 
+    @apply h-[50px] w-[100%] flex items-center px-[15px] bg-slate-600;
+
+    .navBarItems {
+        @apply ml-auto;
+    }
+}

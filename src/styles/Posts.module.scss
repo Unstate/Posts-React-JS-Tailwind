@@ -1,0 +1,22 @@
+.app {
+    @apply w-[800px] m-auto;
+
+    .post {
+        @apply flex p-[15px] border-[2px] border-teal-500 mt-[15px] justify-between items-center;
+    }
+
+    .pagesWrapper {
+        @apply flex justify-center items-center my-[20px];
+    
+        .page {
+            @apply cursor-pointer border border-teal-500 p-[10px];
+        }
+
+        .pageCurrent {
+            @apply border-[2px] border-orange-500 font-bold;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,12 @@
+.myModal {
+    @apply fixed top-0 bottom-0 left-0 right-0 hidden bg-[rgba(0,0,0,0.5)];
+
+    .myModalContent {
+        @apply p-[25px] bg-white rounded-[16px] min-w-[250px]; 
+    }
+}
+
+
+.active {
+        @apply flex justify-center items-center;
+}
